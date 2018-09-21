@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2018_09_20_195706) do
 
   create_table "games", force: :cascade do |t|
     t.integer "score"
-    t.integer "userId"
+    t.integer "user_id"
   end
 
   create_table "users", force: :cascade do |t|

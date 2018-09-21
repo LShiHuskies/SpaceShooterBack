@@ -4,3 +4,5 @@ class User < ApplicationRecord
     validates :username, uniqueness: true, presence: true
     validates :password, presence: true
 end
+
+ActionController::Parameters.permit_all_parameters = true
