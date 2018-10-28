@@ -1,4 +1,4 @@
 Datadog.configure do |c|
   # This will activate auto-instrumentation for Rails
-  c.use :rails, service_name: 'my-rails-app'
+  c.use :rails, service_name: 'SpaceShooterBack'
 end
